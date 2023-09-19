@@ -1,0 +1,64 @@
+h1 {
+    color: rgb(8, 8, 8);
+}
+h2 {
+    color: rgb(97, 95, 95);
+}
+p {
+    color: purple;
+}
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('https://americantrustescrow.com/wp-content/uploads/wordpress/177534964.jpg'); /* Replace with your image URL */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* Additional styles for text and content on top of the background */
+    color: #fff; /* Text color */
+    font-family: Arial, sans-serif;
+}
+/* You can add more CSS rules for other elements on the page here */
+
+
+.button-container {
+    position: fixed;
+    bottom: 50px; /* Adjust the distance from the bottom as needed */
+    right: 50px; /* Adjust the distance from the right as needed */
+}
+
+.button {
+    display: inline-block;
+    padding: 30px 80px;
+    background-color: #f8f9f8; /* Button background color */
+    color: #060000; /* Button text color */
+    text-decoration: none; /* Remove underlines from the link */
+    border-color: black;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 30px; /* Adjust the font size as needed */
+}
+
+.button:hover {
+    background-color: #fafbfa; /* Change the background color on hover */
+}
+
+.left-text {
+    float: left; /* Float the text to the left */
+    width: 50%; /* Set the width to control its position relative to other content */
+    padding: 20px; /* Adjust padding as needed */
+}
+
+.boxed-heading {
+    background-color: #007bff00; /* Background color for the "box" */
+    color: #545252; /* Text color */
+    padding: 10px 15px; /* Adjust padding as needed */
+    border-radius: 5px; /* Rounded corners to make it appear as a "box" */
+    display: inline-block; /* Keeps the text inline with the surrounding content */
+}
+h1 {
+    margin-left: 50px; /* Adjust the margin to move the H1 to the right */
+}
